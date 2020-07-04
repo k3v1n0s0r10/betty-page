@@ -185,6 +185,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		font-family: 'EB Garamond', serif;
 	}
 
 		p.major {
@@ -203,28 +204,38 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+	.subtitle{
+		font-size: 3rem;
+	}
+
 	h1 {
-		font-size: 3.5rem;
+		font-family: 'Galada', cursive;
+		font-size: 7rem;
 		line-height: 1.2;
 	}
 
 	h2 {
-		font-size: 2.25rem;
+		font-family: 'Dancing Script', cursive;
+		font-size: 4rem;
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-family: 'Dancing Script', cursive;
+		font-size: 3rem;
 	}
 
 	h4 {
+		font-family: 'Dancing Script', cursive;
 		font-size: 1.1rem;
 	}
 
 	h5 {
+		font-family: 'Dancing Script', cursive;
 		font-size: 0.9rem;
 	}
 
 	h6 {
+		font-family: 'Dancing Script', cursive;
 		font-size: 0.7rem;
 	}
 
