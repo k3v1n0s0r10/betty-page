@@ -308,23 +308,30 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		p.major {
-			font-size: 1.1rem;
-		}
-
-		h1 {
-			font-size: 2.5rem;
-		}
-
-		h2 {
 			font-size: 2rem;
 		}
 
+		p{
+			font-size: 1.5rem;
+		}
+
+		h1 {
+			font-size: 5rem;
+		}
+
+		h2 {
+			font-size: 3rem;
+			margin: 1rem 0;
+		}
+
 		h3 {
-			font-size: 1.25rem;
+			font-size: 2rem;
+			margin: 1rem 0;
 		}
 
 		h4 {
-			font-size: 1rem;
+			font-size: 2rem;
+			margin: 1rem 0;
 		}
 
 	}
@@ -2588,6 +2595,10 @@ input, select, textarea {
 		margin: 0 auto;
 		margin-bottom: 2rem;
 		justify-content: space-evenly;
+	}
+
+	.contacttext{
+		font-size: 2rem;
 	}
 
 	@media(min-width:768px){
