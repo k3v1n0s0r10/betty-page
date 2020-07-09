@@ -2583,12 +2583,18 @@ input, select, textarea {
 
 	.contacticons{
 		display: flex;
+		flex-direction: column;
 		font-size: 6rem;
 		margin: 0 auto;
 		margin-bottom: 2rem;
 		justify-content: space-evenly;
 	}
-	
+
+	@media(min-width:768px){
+		.contacticons{
+			flex-direction: row;
+		}
+	}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
